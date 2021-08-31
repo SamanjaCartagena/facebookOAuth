@@ -39,7 +39,7 @@ componentClicked = () =>console.log('clicked');
         }else{
             fbContent=(<
                 FacebookLogin
-                appId="1175398122879079"
+                appId=""
                 autoLoad={true}
                 fields="name,email,picture"
                 onClick={this.componentClicked}
